@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>portfolio</title>
+</head>
+<body>
+<div id="page">
+  <!-- ヘッダー -->
+            <header>
+                <div class="title">
+                        <h1>HIROKI KATO</h1>
+                </div>
+                <div class="headermain">
+                  <nav class="nav">
+                      <ul class="navtext">
+                          <li><a href="#">skills</a></li>
+                          <li><a href="#">works</a></li>
+                          <li><a href="#">request</a></li>
+                      </ul>
+                  </nav>
+                  <div class="mainphoto">
+                    <img src="img/hiroki.jpg" alt="hiroki" class="hiroki"> 
+                  </div>
+              </div>
+
+        
+            </header>
+    <!-- メイン -->
+<main>
+                    <div class="myintro">
+                        <p>Hi. I am Hiroki Kato. I like to watch Netflix and 
+                        walk around nature</p>
+                    </div>
+                    <div class="introduction">
+                        <p>introduction</p>
+                    </div>
+<!-- スキル -->
+              <div class="skillqrcode">
+                    <div class="skills">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40"
+                            aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                              html 40% 
+                            </div>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50"
+                            aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                              css 50%
+                            </div>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60"
+                            aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                              javascript 60% 
+                            </div>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                              laravel 70%
+                            </div>
+                          </div>
+                          
+                    </div>
+
+                        <div class="qrcode">
+                            <img src="img/frame.png" alt="フレーム" width="200px" height="200px">
+                        </div>
+                </div>
+
+                    <div class="works">
+                            
+                      <div class="mywork">
+                            <div class="forecast">
+                              <div class="animal">
+                                <h2>Mimic of slack</h2>
+                                <img src="img/chat.react.png" alt="slack" width="200px" height="200px">
+                              </div>
+                            </div>
+        
+                            <div class="forecast">
+                              <div class="animal">
+                                <h2>check the movies</h2>
+                                <img src="img/movieapp.png" alt="" width="200px" height="200px">
+                              </div>
+                            </div>
+                      </div>
+
+                          <div class="rightworks">
+                              <div class="forecast">
+                                <div class="animal">
+                                  <h2>how many water did you finished</h2>
+                                  <img src="img/water.png" alt="check the movies" width="200px" height="200px">
+                                </div>
+                              </div>
+          
+                              <div class="forecast">
+                                <div class="animal">
+                                  <h2>hot spring site</h2>
+                                  <img src="img/totonoi.png" alt="hotspringsite" width="200px" height="200px">
+                              </div>
+                              </div>
+                      </div>
+
+
+                    
+</main>
+<!-- サブ お問い合わせフォーム-->
+            <div id="sub">
+                    <section>
+                        <div class="request">
+                                          <h2>request</h2>
+                                      <form method="GET" action="result.html">
+                                        <div>
+                                          <label for="mail">メールアドレス</label><br>
+                                          <input type="mail" name="email" placeholder="mail"></label>
+                                        </div>
+                                        <div>
+                                          <label><br>
+                                          <input type="text" name="subject" placeholder="お問い合わせ"></label>
+                                        </div>
+                                        <div>
+                                          <label>request<br>
+                                          <textarea name="message"></textarea></label>
+                                        </div>
+                                        <div>
+                                          <input type="submit" name="submit" value="送信">
+                                        </div>
+                                      </form>
+                          </div>
+                    </section>
+            </div>
+
+            <footer>
+                        <p>
+                            <small>©Copyright HIROKI. All rights reserved.</small>
+                        </p>
+            </footer>
+</div>
+</body>
+</html>

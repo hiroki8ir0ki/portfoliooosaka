@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+} 
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.nav {
+    text-align: left;
+    margin-left: 100px;
+    align-items: center;
+    padding-left: 100px;
+
+}
+.headermain {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.headermain ul {
+    list-style: none;
+}
+
+.headermain ul {
+    font-size: 40px;
+}
+
+.navtext a {
+    color: grey;
+}
+
+.hiroki {
+    width: 53%;
+    padding: 78px 81px 50px 250px;
+
+}
+
+.myintro {
+    font-size: 40px;
+}
+
+.introduction {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+
+.myintro {
+    text-align:center;
+    clear: right;
+}
+
+.introduction > p {
+    text-align:center;
+}
+
+.skills {
+    display: block;
+    justify-content: center;
+    align-self: center;
+}
+
+.progress {
+    font-size: 40px;
+    height: initial;
+}
+.qrcode {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 150px;
+}
+
+
+.skillqrcode {
+    display:flex;
+    justify-content: center;
+    margin: 100px 0;
+
+}
+
+.request {
+    text-align: center;
+}
+
+.forecast {
+    border: 5px solid #5abbe4;
+    padding:25px;
+    width: 300px;
+    clear:both;
+}
+
+ /* footer */
+.footer {
+	margin-top: 30px;
+	padding: 80px 15px 20px 15px;
+	font-size: 12px;
+    text-align:center;
+    justify-content: center;
+    text-align: center;
+} 
+
+.mywork {
+    display:flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.rightworks {
+    display:flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
